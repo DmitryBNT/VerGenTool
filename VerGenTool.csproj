@@ -4,14 +4,20 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>vgt.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="ico.png" />
+    <None Remove="vgt.ico" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="ico.png" />
+    <Resource Include="vgt.ico" />
   </ItemGroup>
 
 </Project>

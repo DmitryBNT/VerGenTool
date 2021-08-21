@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VerGenTool"
         mc:Ignorable="d"
-        Title="Antagres VerGenTool" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" MinWidth="370" MinHeight="280" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" MaxHeight="280" MaxWidth="550" Icon="/ico.png">
+        Title="Antagres VerGenTool" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" MinWidth="370" MinHeight="280" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" MaxHeight="280" MaxWidth="550" Icon="/vgt.ico">
     <Grid>
         <TabControl>
             <TabItem Header="Генерация расчётного счёта">
